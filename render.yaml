@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: 4k-video-downloader
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
